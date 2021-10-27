@@ -55,6 +55,68 @@ https://www.youtube.com/watch?v=9hJyyUTflXA
 
 Een probleem dat ik had was dat mijn ledstrip niet werkten en je dit ook niet terug kon zien in de fout melding. De oplossing die ik heb gevonden is dat ik de ledstrip heb geleend van iemand uit mijn klas en daarna heb vervangen voor een nieuwe.
 
+## Stap 1 (Instaleren Adafruit IO)
+Open de arduino software en ga naar Sketch > Include library > Mannage libraries.
+
+![image](https://user-images.githubusercontent.com/29665951/136405326-cf4ddd80-7a95-4a07-acf5-65730b938cf8.png)
+
+Een nieuw venster moet dan openen van de library manager hier type je dan in het zoekveld Adafruit IO Arduino. Zoek in de lijst en klik vervolgens op instaleren > install all.
+
+![image](https://user-images.githubusercontent.com/29665951/136405252-8be0067d-e780-48c9-88f0-a2a0fab64f59.png)
+
+## Stap 2 Aanmelden en deshboard maken
+Maak een account aan op https://io.adafruit.com/.  Wanneer je naar https://io.adafruit.com/timmit147/dashboards gaat kan je bij My key de Username en Active Key copieren.
+
+![image](https://user-images.githubusercontent.com/29665951/136407565-6c9930a1-f342-4b2b-b435-9a73e958fa3f.png)
+
+Klik daarna op new dashboard en kies een naam een beschijving.
+
+![image](https://user-images.githubusercontent.com/29665951/136407780-0e244058-1e17-49a4-b7c6-671dbd282989.png)
+
+Aan de rechter kant kan je een nieuw blok aanmaken kies hierbij color picker en vul velvolgens de gegevens in.
+
+![image](https://user-images.githubusercontent.com/29665951/136408107-436826b9-3d1c-49f6-b578-14f2371caf37.png)
+
+![image](https://user-images.githubusercontent.com/29665951/136408199-3ed8a4a5-84a8-4e2a-ac84-a2541d9e42d6.png)
+
+## Stap 3 Code connecten
+
+Ga naar de arduino File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel
+
+Verander in de code: 
+PIXEL_PIN 5 naar D5
+io.feed naar "io.adafruit.com feed naam"
+
+Verander in de config:
+
+IO-USERNAME naar "io.adafruit.com username"
+
+IO-KEY naar "io.adafruit.com key" 
+
+WIFI_SSID "Wifi naam"
+
+WIFI_PASS "wifi wachtwoord"
+
+
+Upload daarna je code naar de arduino.
+
+Wanneer het werkt zou je in je Serial Monitor moeten zien dat die verbonden is met de website.
+
+![image](https://user-images.githubusercontent.com/29665951/136688158-f0c12f67-49fc-462c-a5e0-dfff71263d70.png)
+
+## Fouten 
+Ik begreep eerst niet dat de Baud rate per programa anders kan zijn en dat ik deze dan elke keer moet aanpassen.
+https://www.youtube.com/watch?v=4Z8f5MyS_EY
+
+![image](https://user-images.githubusercontent.com/29665951/136686946-8063b42a-a919-4fb9-8327-4645242d5aab.png)
+
+Een andere fout die ik maakten was dat ik in de code niet had aangegeven wat de io.feed naam was. Waneer je dit wil aanpassen ga dan naar https://io.adafruit.com/timmit147/dashboards en selecteer in het menu feeds en de feed die je wil aanpassen. Klik daarna aan de rechter kant op Feed info en daar zie je dan de key van de feed. Je kan key naam kopieeren en deze en plaatsten in je code.
+
+![image](https://user-images.githubusercontent.com/29665951/136688489-985bcf6a-f9cf-4227-87bb-584ca6d403ec.png)
+
+
+
+
 
 ## Final code 
 
