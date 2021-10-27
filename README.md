@@ -68,6 +68,11 @@ Open the arduino software and go to Sketch > Include library > Mannage libraries
 ![image](https://user-images.githubusercontent.com/29665951/136405326-cf4ddd80-7a95-4a07-acf5-65730b938cf8.png)
 
 A new window should open from the library manager here you type in the search field Adafruit IO Arduino. Find in the list and then click install > install all.
+To install the time libary you have to do the same NTPClient.
+
+## Mistake 
+In the beginning I tried to add other people's code but it didn't work. What I didn't know was that when you use #include you also have to install a library before you can use other people's work I made this mistake a few times.
+
 
 ![image](https://user-images.githubusercontent.com/29665951/136405252-8be0067d-e780-48c9-88f0-a2a0fab64f59.png)
 
