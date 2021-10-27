@@ -2,7 +2,13 @@
 
 ## Goal
 
-![image](https://user-images.githubusercontent.com/29665951/139068844-4bfb8b13-4a81-46ea-bbe4-84a7c0651e22.png)
+Change the color of the led lights with the internet and change the brightness of the light based on the time.
+
+![image](https://user-images.githubusercontent.com/29665951/139136041-3d93a20c-4a39-49bb-887d-f4e580ca79d6.png)
+
+## First mistake
+
+I was trying to make a part of my product that was too difficult to work and I'd better start with something easy first. The failed code I tried was to create an app where you can adjust all the settings of the Smart air conditioner without using adafruit. I was able to connect a lot with the wifi and could retrieve data from a web app with the arduino but I always got weird error messages like error -1 error -4 error -11. I didn't understand this problems well that's why I've moved on to an easier project
 
 
 ## Supplies
