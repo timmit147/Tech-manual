@@ -8,7 +8,7 @@ Change the color of the led lights with the internet and change the brightness o
 
 ## First mistake
 
-I was trying to make a part of my product that was too difficult to work and I'd better start with something easy first. The failed code I tried was to create an app where you can adjust all the settings of the Smart air conditioner without using adafruit. I was able to connect a lot with the wifi and could retrieve data from a web app with the arduino but I always got weird error messages like error -1 error -4 error -11. I didn't understand this problems well that's why I've moved on to an easier project
+I was trying to make a part of my product that was too high a level for me in such a short time. So I started over with a simpler solution. The failed code I tried was to create an app where you can adjust all the settings of the Smart air conditioner without using adafruit. I managed to connect to the wifi, but I couldn't get the content from a website because I kept getting weird error messages like error -1, error -4, error -11. I didn't understand these problems well so I switched to a simpler problem.
 
 
 ## Supplies
