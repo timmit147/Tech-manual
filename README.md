@@ -255,3 +255,10 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 // AdafruitIO_Ethernet io(IO_USERNAME, IO_KEY);
 
 ```
+
+### Terminal 
+
+When you look at the terminal you wil see that the arduino wil conect to the internet. The arduino is connected to the time and wil show every seconds in real time and the led strip wil change based on that info.
+
+![image](https://user-images.githubusercontent.com/29665951/139133020-34b920ca-7cae-43ec-b96e-bfc678ee4910.png)
+
