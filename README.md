@@ -333,3 +333,10 @@ When you look at the terminal you wil see that the arduino wil conect to the int
 
 ![image](https://user-images.githubusercontent.com/29665951/139133020-34b920ca-7cae-43ec-b96e-bfc678ee4910.png)
 
+## Io adafruit recultaat
+
+![thumbnail_IMG_20211010_102230287](https://user-images.githubusercontent.com/29665951/136688316-9674cdaf-da59-442a-9fdd-3419773ee24c.jpg)
+
+![thumbnail_IMG_20211010_102217719](https://user-images.githubusercontent.com/29665951/136688324-e70048ba-de9e-4d50-89b9-1ea7da9ae2dd.jpg)
+
+
