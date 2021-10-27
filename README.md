@@ -106,6 +106,10 @@ When it works you should see in your Serial Monitor that it is connected to the 
 
 ![image](https://user-images.githubusercontent.com/29665951/136688158-f0c12f67-49fc-462c-a5e0-dfff71263d70.png)
 
+Now you can change the color of the led on the website https://io.adafruit.com/ and click on save to upload the code to the arduino.
+![image](https://user-images.githubusercontent.com/29665951/139134946-aabf8478-6151-449f-88ad-9a097c71f811.png)
+
+
 ## Mistakes
 At first I didn't understand that the Baud rate can be different per program and that I have to adjust it every time.
 
