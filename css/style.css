@@ -1,0 +1,15 @@
+body{
+	background-color: black;
+}
+
+button {
+    width: 20vw;
+    height: 10vw;
+    font-size: 1.5em;
+    background-color: #272727;
+    color: white;
+}
+
+#poweroff{
+	background-color: #FF0000;
+}
