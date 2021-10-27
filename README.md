@@ -1,5 +1,7 @@
 # Tech-manual
 
+https://stackoverflow.com/questions/63201830/how-to-fetch-real-time-data-from-url-in-nodemcu-using-arduino
+
 ## Benodigheden
 
 1x Arduino Board(met wifi)
