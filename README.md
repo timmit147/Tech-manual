@@ -1,6 +1,9 @@
 # Tech-manual
 
-https://stackoverflow.com/questions/63201830/how-to-fetch-real-time-data-from-url-in-nodemcu-using-arduino
+## Goal
+
+![image](https://user-images.githubusercontent.com/29665951/139068844-4bfb8b13-4a81-46ea-bbe4-84a7c0651e22.png)
+
 
 ## Benodigheden
 
