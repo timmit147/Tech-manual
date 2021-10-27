@@ -5,118 +5,117 @@
 ![image](https://user-images.githubusercontent.com/29665951/139068844-4bfb8b13-4a81-46ea-bbe4-84a7c0651e22.png)
 
 
-## Benodigheden
+## Supplies
 
-1x Arduino Board(met wifi)
+1x Arduino Board(with wifi)
 
 1x ledstrip
 
-1x usb naar arduino poort
+1x usb to arduino port
 
-3x verbindingsdraden (vast gelijmt aan ledstrip)
+3x connecting wires (glued to LED strip)
 
 
 ![IMG_20211007_161030206](https://user-images.githubusercontent.com/29665951/136402185-46be7434-224d-4d7e-a826-abde8273721e.jpg)
 
-## Aansluiten arduino
+## Connect arduino
 
-Om de ledstrip te gebruiken moet je de verbindingsdraden vast lijmen aan de ledstrip. Het maakt niet uit welke kleur de verbindingsdraden zijn gelijmt. Wanneer de verbindingsdraden vast zitten aan de ledstrip kan je deze koppelen aan de arduino. Het maakt niet uit hoe je de verbindingsdraden in de arduino klikt alle kanten werkt.
+To use the LED strip, you have to glue the connecting wires to the LED strip. It does not matter what color the connecting wires are glued. When the connecting wires are attached to the LED strip, you can connect it to the arduino. It doesn't matter how you click the connecting wires into the arduino, all sides work.
 
-ledstrip = arduino
+led strip = arduino
 
 +5v = 3v3 
 
-Din = D5 (je kan hier een keuze maken tussen D0 tot D10 als je dat maar in je code aangeeft)
+Din = D5 (you can make a choice here between D0 to D10 if you indicate that in your code)
 
 GND = GND
 
-Connect daarna de arduino aan de computer en upload je code.
+Then connect the arduino to the computer and upload your code.
 
 ![Web 1920 – 9](https://user-images.githubusercontent.com/29665951/136686528-b7c93de2-8cdb-4c1b-a002-b9e73e0f1c60.jpg)
 
-## Testen arduino
-Ga naar de arduino software en klik op file > examples > 01.Basics > Blink. Upload deze code naar de arduino wanneer er een lapje knippert op het board weet je dat de arduino werkt.
+## Testing arduino
+Go to the arduino software and click on file > examples > 01.Basics > Blink. Upload this code to the arduino when a patch flashes on the board you know that the arduino is working.
 
-## Testen led
+## Testing led
 
-Open de arduino software en ga naar Sketch > Include library > Mannage libraries.
+Open the arduino software and go to Sketch > Include library > Mannage libraries.
 
 ![image](https://user-images.githubusercontent.com/29665951/136405326-cf4ddd80-7a95-4a07-acf5-65730b938cf8.png)
 
-Een nieuw venster moet dan openen van de library manager hier type je dan in het zoekveld Adafruit Neopixel. Zoek in de lijst en klik vervolgens op instaleren > install all.
+A new window should open from the library manager here you type in the search field Adafruit Neopixel. Find in the list and then click install > install all.
 
 ![image](https://user-images.githubusercontent.com/29665951/136687786-ef39ab39-7d8a-42c2-8b74-2e20cda58217.png)
 
-Wanneer je de libary heb gedownload kan je een test script laden. Ga naar File > Examples > Adafruit NeoPixel > strandtest. Belangerijk om te weten als je de led verlichting gebruikt moet je in de code altijd de LED_PIN aanpassen naar de pin die je in de arduino heb geplaatst (D5). Klik vervolgens op uploaden en de ledstrip zou van kleur moeten veranderen.
+When you have downloaded the library you can load a test script. Go to File > Examples > Adafruit NeoPixel > beach test. Important to know if you use the LED lighting, you should always adjust the LED_PIN in the code to the pin you placed in the arduino (D5). Then click upload and the LED strip should change color.
+
 
 https://www.youtube.com/watch?v=9hJyyUTflXA
 
-## Fouten
+## Mistakes
 
-Een probleem dat ik had was dat mijn ledstrip niet werkten en je dit ook niet terug kon zien in de fout melding. De oplossing die ik heb gevonden is dat ik de ledstrip heb geleend van iemand uit mijn klas en daarna heb vervangen voor een nieuwe.
+A problem I had was that my LED strip did not work and you could not see this in the error message. The solution I found is that I borrowed the LED strip from someone in my class and then replaced it with a new one.
 
-## Stap 1 (Instaleren Adafruit IO)
-Open de arduino software en ga naar Sketch > Include library > Mannage libraries.
+## Step 1 (Install Adafruit IO)
+Open the arduino software and go to Sketch > Include library > Mannage libraries.
 
 ![image](https://user-images.githubusercontent.com/29665951/136405326-cf4ddd80-7a95-4a07-acf5-65730b938cf8.png)
 
-Een nieuw venster moet dan openen van de library manager hier type je dan in het zoekveld Adafruit IO Arduino. Zoek in de lijst en klik vervolgens op instaleren > install all.
+A new window should open from the library manager here you type in the search field Adafruit IO Arduino. Find in the list and then click install > install all.
 
 ![image](https://user-images.githubusercontent.com/29665951/136405252-8be0067d-e780-48c9-88f0-a2a0fab64f59.png)
 
-## Stap 2 Aanmelden en deshboard maken
-Maak een account aan op https://io.adafruit.com/.  Wanneer je naar https://io.adafruit.com/timmit147/dashboards gaat kan je bij My key de Username en Active Key copieren.
+## Step 2 Sign in and create dashboard
+
+Create an account at https://io.adafruit.com/. When you go to https://io.adafruit.com/timmit147/dashboards you can copy the Username and Active Key at My key.
 
 ![image](https://user-images.githubusercontent.com/29665951/136407565-6c9930a1-f342-4b2b-b435-9a73e958fa3f.png)
 
-Klik daarna op new dashboard en kies een naam een beschijving.
+Then click on new dashboard and choose a name and description.
 
 ![image](https://user-images.githubusercontent.com/29665951/136407780-0e244058-1e17-49a4-b7c6-671dbd282989.png)
 
-Aan de rechter kant kan je een nieuw blok aanmaken kies hierbij color picker en vul velvolgens de gegevens in.
+On the right side you can create a new block, choose color picker and fill in sheet according to the data.
 
 ![image](https://user-images.githubusercontent.com/29665951/136408107-436826b9-3d1c-49f6-b578-14f2371caf37.png)
 
 ![image](https://user-images.githubusercontent.com/29665951/136408199-3ed8a4a5-84a8-4e2a-ac84-a2541d9e42d6.png)
 
-## Stap 3 Code connecten
+## Step 3 Connect code
 
-Ga naar de arduino File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel
+Go to the arduino File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel
 
-Verander in de code: 
-PIXEL_PIN 5 naar D5
-io.feed naar "io.adafruit.com feed naam"
+Change in the code:
+PIXEL_PIN 5 to D5
+io.feed to "io.adafruit.com feed name"
 
-Verander in de config:
+Change in the config:
 
-IO-USERNAME naar "io.adafruit.com username"
+IO-USERNAME to "io.adafruit.com username"
 
-IO-KEY naar "io.adafruit.com key" 
+IO KEY to "io.adafruit.com key"
 
-WIFI_SSID "Wifi naam"
+WIFI_SSID "Wifi name"
 
-WIFI_PASS "wifi wachtwoord"
+WIFI_PASS "wifi password"
 
 
-Upload daarna je code naar de arduino.
+Then upload your code to the arduino.
 
-Wanneer het werkt zou je in je Serial Monitor moeten zien dat die verbonden is met de website.
+When it works you should see in your Serial Monitor that it is connected to the website.
 
 ![image](https://user-images.githubusercontent.com/29665951/136688158-f0c12f67-49fc-462c-a5e0-dfff71263d70.png)
 
-## Fouten 
-Ik begreep eerst niet dat de Baud rate per programa anders kan zijn en dat ik deze dan elke keer moet aanpassen.
+## Mistakes
+At first I didn't understand that the Baud rate can be different per program and that I have to adjust it every time.
+
 https://www.youtube.com/watch?v=4Z8f5MyS_EY
 
 ![image](https://user-images.githubusercontent.com/29665951/136686946-8063b42a-a919-4fb9-8327-4645242d5aab.png)
 
-Een andere fout die ik maakten was dat ik in de code niet had aangegeven wat de io.feed naam was. Waneer je dit wil aanpassen ga dan naar https://io.adafruit.com/timmit147/dashboards en selecteer in het menu feeds en de feed die je wil aanpassen. Klik daarna aan de rechter kant op Feed info en daar zie je dan de key van de feed. Je kan key naam kopieeren en deze en plaatsten in je code.
+Another mistake I made was that I didn't specify the io.feed name in the code. If you want to adjust this, go to https://io.adafruit.com/timmit147/dashboards and select in the menu feeds and the feed you want to adjust. Then click on Feed info on the right side and there you will see the key of the feed. You can copy key name and put it in your code.
 
 ![image](https://user-images.githubusercontent.com/29665951/136688489-985bcf6a-f9cf-4227-87bb-584ca6d403ec.png)
-
-
-
-
 
 ## Final code 
 
