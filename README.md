@@ -11,7 +11,7 @@ I was trying to make a part of my product that was too high a level for me in su
 ![image](https://user-images.githubusercontent.com/29665951/139140248-4fbbd9b3-343c-4a43-950f-9a442aa26063.png)
 
 
-## Supplies
+## Step 1 Getting supplies
 
 1x Arduino Board(with wifi)
 
@@ -24,7 +24,7 @@ I was trying to make a part of my product that was too high a level for me in su
 
 ![IMG_20211007_161030206](https://user-images.githubusercontent.com/29665951/136402185-46be7434-224d-4d7e-a826-abde8273721e.jpg)
 
-## Connect arduino
+## Step 2 Connect arduino
 
 To use the LED strip, you have to glue the connecting wires to the LED strip. It does not matter what color the connecting wires are glued. When the connecting wires are attached to the LED strip, you can connect it to the arduino. It doesn't matter how you click the connecting wires into the arduino, all sides work.
 
@@ -40,10 +40,10 @@ Then connect the arduino to the computer and upload your code.
 
 ![Web 1920 – 9](https://user-images.githubusercontent.com/29665951/136686528-b7c93de2-8cdb-4c1b-a002-b9e73e0f1c60.jpg)
 
-## Testing arduino
+## Step 3 Testing arduino
 Go to the arduino software and click on file > examples > 01.Basics > Blink. Upload this code to the arduino when a patch flashes on the board you know that the arduino is working.
 
-## Testing led
+## Step 4 Testing led
 
 Open the arduino software and go to Sketch > Include library > Mannage libraries.
 
@@ -60,9 +60,9 @@ https://www.youtube.com/watch?v=9hJyyUTflXA
 
 ## Mistakes
 
-A problem I had was that my LED strip did not work and you could not see this in the error message. The solution I found is that I borrowed the LED strip from someone in my class and then replaced it with a new one.
+A problem I had was that my LED strip did not work and you could not see this in the error message. The solution I found is that I borrowed the LED strip from someone in my class to test if the LED strip was broken and then replaced it with a new one.
 
-## Step 1 (Install Adafruit IO)
+## Step 5 (Install Adafruit IO)
 Open the arduino software and go to Sketch > Include library > Mannage libraries.
 
 ![image](https://user-images.githubusercontent.com/29665951/136405326-cf4ddd80-7a95-4a07-acf5-65730b938cf8.png)
@@ -76,7 +76,7 @@ In the beginning I tried to add other people's code but it didn't work. What I d
 
 ![image](https://user-images.githubusercontent.com/29665951/136405252-8be0067d-e780-48c9-88f0-a2a0fab64f59.png)
 
-## Step 2 Sign in and create dashboard
+## Step 6 Sign in and create dashboard
 
 Create an account at https://io.adafruit.com/. When you go to https://io.adafruit.com/timmit147/dashboards you can copy the Username and Active Key at My key.
 
@@ -92,7 +92,7 @@ On the right side you can create a new block, choose color picker and fill in sh
 
 ![image](https://user-images.githubusercontent.com/29665951/136408199-3ed8a4a5-84a8-4e2a-ac84-a2541d9e42d6.png)
 
-## Step 3 Connect code
+## Step 7 Connect code
 
 Go to the arduino File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel
 
