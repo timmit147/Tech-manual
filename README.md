@@ -1,7 +1,5 @@
 # Tech-manual
 
-## Goal
-
 Change the color of the led lights with the internet and change the brightness of the light based on the time.
 
 ![image](https://user-images.githubusercontent.com/29665951/139136041-3d93a20c-4a39-49bb-887d-f4e580ca79d6.png)
