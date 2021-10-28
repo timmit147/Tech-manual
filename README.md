@@ -8,6 +8,9 @@ Change the color of the led lights with the internet and change the brightness o
 
 I was trying to make a part of my product that was too high a level for me in such a short time. So I started over with a simpler solution. The failed code I tried was to create an app where you can adjust all the settings of the Smart air conditioner without using adafruit. I managed to connect to the wifi, but I couldn't get the content from a website because I kept getting weird error messages like error -1, error -4, error -11. I didn't understand these problems so I switched to a simpler problem to fix.
 
+### Solution 
+Start with something easy and if you succeed you can make it more dificult, this prevents you from getting stuck and skiping the basic principles.
+
 ![image](https://user-images.githubusercontent.com/29665951/139140248-4fbbd9b3-343c-4a43-950f-9a442aa26063.png)
 
 
@@ -62,6 +65,9 @@ https://www.youtube.com/watch?v=9hJyyUTflXA
 
 A problem I had was that my LED strip did not work and you could not see this in the error message. The solution I found is that I borrowed the LED strip from someone in my class to test if the LED strip was broken and then replaced it with a new one.
 
+### Solution
+Always test with a standard script whether all parts of your arduino and your computer work before you continue.
+
 ## Step 5 (Install Adafruit IO)
 Open the arduino software and go to Sketch > Include library > Mannage libraries.
 
@@ -73,6 +79,8 @@ To install the time libary you have to do the same NTPClient.
 ## Mistake 
 In the beginning I tried to add other people's code but it didn't work. What I didn't know was that when you use #include you also have to install a library before you can use other people's work I made this mistake a few times.
 
+### Solution
+When using #include always check if the libiary is instaled on your computer if not install the library.
 
 ![image](https://user-images.githubusercontent.com/29665951/136405252-8be0067d-e780-48c9-88f0-a2a0fab64f59.png)
 
