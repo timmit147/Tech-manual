@@ -131,6 +131,22 @@ Another mistake I made was that I didn't specify the io.feed name in the code. I
 
 ![image](https://user-images.githubusercontent.com/29665951/136688489-985bcf6a-f9cf-4227-87bb-584ca6d403ec.png)
 
+Step 8 change time
+
+When you use #include <NTPClient.h> on the top of your document than you can use time in your code.
+
+If you want that the code start at 7 you can use this code bellow.
+
+```
+if(timeClient.getHours() == 7){
+  Start code at 7 o'clock
+}
+```
+
+https://lastminuteengineers.com/esp8266-ntp-server-date-time-tutorial/
+
+The problem that I had whas that I forgot to add #include <WiFiUdp.h> in the code.
+
 ## Final code 
 
 ### Adafruit code
