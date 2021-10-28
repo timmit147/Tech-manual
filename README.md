@@ -4,15 +4,6 @@ Change the color of the led lights with the internet and change the brightness o
 
 ![image](https://user-images.githubusercontent.com/29665951/139136041-3d93a20c-4a39-49bb-887d-f4e580ca79d6.png)
 
-## First mistake
-
-I was trying to make a part of my product that was too high a level for me in such a short time. So I started again with a simpler solution. The failed code I tried was to create an app where you can adjust all the settings of the Smart air conditioner without using adafruit. I managed to connect to the wifi, but I couldn't get the content from a website because I kept getting weird error messages like error -1, error -4, error -11. I didn't understand these problems so I switched to a simpler problem to fix.
-
-### Solution 
-Start with something easy and if you succeed you can make it more dificult, this prevents you from getting stuck and skiping the basic principles.
-
-![image](https://user-images.githubusercontent.com/29665951/139140248-4fbbd9b3-343c-4a43-950f-9a442aa26063.png)
-
 
 ## Step 1 Getting supplies
 
@@ -312,5 +303,14 @@ When you look at the terminal you wil see that the arduino wil conect to the int
 ![thumbnail_IMG_20211010_102230287](https://user-images.githubusercontent.com/29665951/136688316-9674cdaf-da59-442a-9fdd-3419773ee24c.jpg)
 
 ![thumbnail_IMG_20211010_102217719](https://user-images.githubusercontent.com/29665951/136688324-e70048ba-de9e-4d50-89b9-1ea7da9ae2dd.jpg)
+
+## First mistake
+
+I was trying to make a part of my product that was too high a level for me in such a short time. So I started again with a simpler solution. The failed code I tried was to create an app where you can adjust all the settings of the Smart air conditioner without using adafruit. I managed to connect to the wifi, but I couldn't get the content from a website because I kept getting weird error messages like error -1, error -4, error -11. The problem I had with this error is probably that when you want to fetch from a website you need a digital handshake to access the website data. I didn't understand these problems so I switched to a simpler problem to fix.
+
+### Solution 
+Start with something easy and if you succeed you can make it more dificult, this prevents you from getting stuck and skiping the basic principles.
+
+![image](https://user-images.githubusercontent.com/29665951/139140248-4fbbd9b3-343c-4a43-950f-9a442aa26063.png)
 
 
