@@ -131,11 +131,11 @@ Another mistake I made was that I didn't specify the io.feed name in the code. I
 
 ![image](https://user-images.githubusercontent.com/29665951/136688489-985bcf6a-f9cf-4227-87bb-584ca6d403ec.png)
 
-Step 8 change time
+## Step 8 change time
 
 When you use #include <NTPClient.h> on the top of your document than you can use time in your code.
 
-If you want that the code start at 7 you can use this code bellow.
+If you want that the code start at 7 you can use this code bellow for a example.
 
 ```
 if(timeClient.getHours() == 7){
